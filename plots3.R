@@ -47,7 +47,7 @@ lines(c, type="l", lwd=2, col="violet")
 axis(1, at=c(0,1440,2800), labels=c("Thurs","Fri","Sat"))
 legend(1700, 40, legend=c("Sub_metering_1", "Sub_metering_2","Sub_metering_3"),col=c("black","red", "violet"), lty=1:2, cex=.9)
 
-dev.copy(png, file = "plot3.png") 
+dev.copy(png, file = "plot3.png",width = 480, height = 480) 
 dev.off()
 
 

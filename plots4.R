@@ -47,7 +47,7 @@ ts.plot(dataThurFri$Global_active_power, gpars=list(ylab="Global_reactive_power"
 axis(2, labels = T)
 axis(1, at=c(0,1440,2800), labels=c("Thurs","Fri","Sat"))
 
-dev.copy(png, file = "plot4.png") 
+dev.copy(png, file = "plot4.png",width = 480, height = 480) 
 dev.off()
 
 

@@ -28,7 +28,7 @@ ts.plot(c(a=as.numeric(WantedData[WantedData$Date=="Thurs",]$Global_active_power
 axis(2, labels = T)
 axis(1, at=c(0,1440,2800), labels=c("Thurs","Fri","Sat"))
 
-dev.copy(png, file = "plot2.png") 
+dev.copy(png, file = "plot2.png",width = 480, height = 480) 
 
 dev.off()
 
